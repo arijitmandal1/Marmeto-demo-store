@@ -1,0 +1,20 @@
+<div class="card__wrapper">
+  <div class="card__img">
+    <img src="{{ block.settings.slider_image_url | img_url }}" alt="">
+  </div>
+  <div class="custom_content">
+    <div class="card__info">
+      <span class="caption__title h3">{{ block.settings.caption_title }}</span>
+      <span class="card__heading h3">{{ block.settings.card_heading }}</span>
+      <br>
+      <span class="published__by h4">Published by: {{ block.settings.published_by }}</span>
+      <span class="card__desc">{{ block.settings.card_description }}</span>
+    </div>
+    <div class="card__read_more">
+      <a class="h2" href="">
+        {{ block.settings.anchor_link_title }}
+      </a>
+      <span class="caption">{{ block.settings.published_date }}</span>
+    </div>
+  </div>
+</div>

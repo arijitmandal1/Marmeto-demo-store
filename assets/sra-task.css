@@ -1,0 +1,40 @@
+.card__img {
+	height: 20rem;
+	width: 100%;
+}
+.card__wrapper {
+}
+.card__img img {
+	height: 100%;
+	width: 100%;
+}
+
+.flex_center {
+	display: flex;
+	justify-content: center;
+}
+.slider__container {
+	padding: 10px;
+	margin-bottom: 2rem;
+}
+
+.slider__container li {
+	border: 1px solid #00000070;
+	box-shadow: 1px 2px 5px #00000073;
+	border-radius: 10px;
+	padding: 2rem;
+}
+.sra_main {
+	padding-inline: 5rem;
+}
+.card__wrapper {
+	display: flex;
+	gap: 2rem;
+}
+.custom_content {
+	width: 100%;
+}
+.card__wrapper * {
+	letter-spacing: normal;
+	line-height: normal;
+}
